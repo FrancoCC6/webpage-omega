@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Test Operation Omega</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="generalSettings.css">
+		<script type="text/javascript" src="tabBehavior.js"></script>
+	</head>
+
+	<body>
+		<!-- TABS SELECTOR -->
+
+		<div class="tab-container">
+			<div class="tab selected" text="Game Overview" id="1" onclick="collapseTab(event)"></div>
+			<div class="tab" text="Screenshots" id="2" onclick="collapseTab(event)"></div>
+			<div class="tab" text="Releases" id="3" onclick="collapseTab(event)"></div>
+			<div class="tab" text="Changelogs" id="4" onclick="collapseTab(event)"></div>
+			<div class="tab" text="Staff" id="5" onclick="collapseTab(event)"></div>
+		</div>
+
+
+		<!-- CONTENT SECTOR -->
+
+		<div class="pane-container">
+			<div class="content-pane" id="1">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+
+			<div class="content-pane" id="2" hidden="true">
+				<img src="test.jpg">
+			</div>
+
+			<div class="content-pane" id="3" hidden="true">
+				Content C
+			</div>
+
+			<div class="content-pane" id="5" hidden="true">
+				Content D
+			</div>
+
+			<div class="content-pane" id="5" hidden="true">
+				Content E
+			</div>
+		</div>
+
+	</body>
+</html>

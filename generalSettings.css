@@ -1,0 +1,47 @@
+html, body {
+	height: 100%;
+}
+
+.tab-container {
+	display: flex;
+}
+
+.tab {
+	padding: 5px 20px;
+	border: 1px solid black;
+	border-radius: 20% 20% 0 0;
+	cursor: pointer;
+}
+
+.tab:hover {
+	background-color: #DDDDFE;
+}
+
+.tab:after {
+	content: attr(text);
+}
+
+.content-pane {
+	padding: 20px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.content-pane > img {
+	width: 20%;
+}
+
+.pane-container {
+	border: 1px solid black;
+	transition: all .5s;
+	overflow: hidden;
+	max-height: 100%;
+}
+
+.transitioning {
+	max-height: 0;
+}
+
+.selected {
+	background-color: #AAEFBB;
+}
